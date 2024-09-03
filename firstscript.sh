@@ -11,7 +11,7 @@ firstName="Aritra"
 
 # a function can be declared like this
 get_FullName(){
-	local salutation="Mr." #this is declared with local see is not avaialble outside the function scope
+	local salutation="Mr." #this is declared with local see is not available outside the function scope
 	lastName=$(get_LastName) #a function call that reruns some value
 	echo "$salutation $firstName $lastName" #echo can also be used as return statement, like here the full name is returned from the function
 }
